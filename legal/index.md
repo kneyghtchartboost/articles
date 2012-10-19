@@ -1,2 +1,2 @@
-[Terms & Conditions](legal/terms)
-[Privacy Policy](legal/privacy)
+[Terms & Conditions](/legal/terms)
+[Privacy Policy](/legal/privacy)
