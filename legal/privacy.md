@@ -1,8 +1,8 @@
-# PRIVACY POLICY - Chartboost
+## PRIVACY POLICY - Chartboost
 
 *Last updated: August 20, 2012*
 
-## OVERVIEW
+### OVERVIEW
 
 This privacy statement ("Privacy Policy") explains how information (both
 customer and end user information) is collected and utilized by Chartboost,
