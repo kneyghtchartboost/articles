@@ -47,3 +47,13 @@ Marketplace
 - Do you want to show interstitials to earn money? Start a publishing campaign!
 - Do you want to acquire users from the Chartboost network? Start an advertising campaign!
 - Do you want to promote your own apps within your network? Start a cross promotion campaign!
+
+
+--- 
+
+# Next Steps
+
+- Test your integration
+- Deposit funds
+- Review Chartboost best practices
+- Use our API to collect data
