@@ -2,17 +2,20 @@ Using Chartboost is as easy as 1 - 2 - 3! You'll be up and running before your s
 
 
 1. Add your app.
+
 iOS App Store
 Google Play Store
 Amazon Marketplace
 
 
 2. Integrate the SDK
+
 Instructions for iOS
 Instructions for Android
 
 
 3. Launch a Campaign
+
 Cross-Promotion
 Direct Deals
 Marketplace
