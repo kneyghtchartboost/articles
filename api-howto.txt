@@ -1,0 +1,12 @@
+/*
+** Get all of the existing info for an entry
+*/
+
+http -v get http://d.caffeine.io:9292/articles/<id>
+
+/*
+** Set/override info for an entry
+** 1. get all existing info, even if you only need to set the icon you have to have all other fields filled out
+*/
+
+echo -n '{"_id":"getting-started","parent":"home","title":"Getting Started","path":"getting-started.md","icon": {"char":"","font":"ss"}}' | http -v post http://d.caffeine.io:9292/articles/getting-started
