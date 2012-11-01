@@ -1,5 +1,3 @@
-## PRIVACY POLICY - Chartboost
-
 *Last updated: August 20, 2012*
 
 ### OVERVIEW

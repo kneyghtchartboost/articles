@@ -20,7 +20,7 @@ Cross-Promotion
 Direct Deals  
 Marketplace
 
-
+[legal terms](/legal/terms)
 
 ---
 
