@@ -1,5 +1,5 @@
 FAQ Page
 
-Visit the [money][] section of the faq page if you're awesome. :)
+Visit the [money][] section of the faq or else...
 
 [money]: /faq/money
