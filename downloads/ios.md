@@ -1,6 +1,8 @@
 <a class="big_button" href="https://chartboost.com/support/sdk_download/3.1.1?os=ios">Downloads the latest iOS SDK</a>
 
-## SDK Changelog
+---
+
+## Changelog
 
 #### v3.1.1
 
@@ -13,7 +15,7 @@
 - Added support for the iOS 6 App Sheet so your users can download apps without
   ever leaving your app! You must include StoreKit.framework for access to the
   App Sheet. We are rolling out this feature in phases, apply for access via
-  bizdev@chartboost.com.
+  [bizdev@chartboost.com](mailto:bizdev@chartboost.com).
 - More apps status bar fixed, now auto-adjusts position when status bar is
   visible
 - Fixed rare crasher in CBCrypto
@@ -25,6 +27,7 @@
 
 REQUIRED: You must include AdSupport.framework for access to the
 identifierForAdvertising
+
 - Added compatibility with Xcode 4.5 & armv7s. This SDK includes armv6, armv7,
   and armv7s
 - Fixed shouldRequestInterstitialsInFirstSession delegate method; now requests
@@ -76,7 +79,7 @@ identifierForAdvertising
       directory to update camelcase ChartBoost in all your files:
       
       ```bash
-      $ for ext in '*.m' '*.h' '*.c' '*.mm'; do find . -name "$ext" -exec sed -i '' 's/ChartBoost/Chartboost/g' '{}' \; ; done
+      for ext in '*.m' '*.h' '*.c' '*.mm'; do find . -name "$ext" -exec sed -i '' 's/ChartBoost/Chartboost/g' '{}' \; ; done
       ```
 
 - New native interstitials: faster, less memory
