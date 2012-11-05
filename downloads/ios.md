@@ -1,6 +1,6 @@
 <a class="big_button" href="https://chartboost.com/support/sdk_download/3.1.1?os=ios">Downloads the latest iOS SDK</a>
 
-SDK Changelog
+## SDK Changelog
 
 #### v3.1.1
 
