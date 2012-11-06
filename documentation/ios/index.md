@@ -13,6 +13,8 @@ Integrating Chartboost takes two easy steps:
     Ensure you are linking against the following frameworks: `QuartzCore`,
     `SystemConfiguration`, `StoreKit`, `CoreGraphics`, and `GameKit`.
 
+    Additionally, ensure you are weak-linking to the `AdSupport` framework.
+
  2. Instanciate with the Chartboost SDK in your
     `application:didFinishLaunchingWithOptions:` method, like this:
     
