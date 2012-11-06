@@ -39,5 +39,7 @@ Integrating Chartboost takes two easy steps:
 
 <a class="article_box" href="/documentation/ios/caching">Caching</a>
 
+<a class="article_box" href="/documentation/ios/analytics">Analytics</a>
+
 <a class="article_box" href="/documentation/ios/delegation">Delegate methods</a>
 
