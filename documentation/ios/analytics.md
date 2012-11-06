@@ -35,5 +35,5 @@ CBAnalytics *analytics = [CBAnalytics sharedAnalytics];
 // Track an event with a value & metadata
 [analytics trackEvent:@"score"
             withValue:@4567890
-         withMetadata:@{@"level": @1, @"boosts": @[@"jetpack", @"snowmobile"]}];
+          andMetadata:@{@"level": @1, @"boosts": @[@"jetpack", @"snowmobile"]}];
 ```
