@@ -334,4 +334,4 @@ this Agreement prior to using the Site or the Online Services.
 
 <a href="#end" name="end">End of Legal</a>
 
-<a href="faq/support#end" name="end">End of Support FAQ</a>
+<a href="/faq/support#end" name="end">End of Support FAQ</a>
