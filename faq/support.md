@@ -135,3 +135,4 @@ ____________________ DUPLICATED ________________________
 
 <a href="#end" name="end">Something important End</a>
 
+<a href="/legal/terms#end" name="end">Legal End</a>
