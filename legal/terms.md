@@ -333,3 +333,5 @@ this Agreement prior to using the Site or the Online Services.
     performance hereof by the parties hereunder.
 
 <a href="#end" name="end">End of Legal</a>
+
+<a href="faq/support#end" name="end">End of Legal</a>
