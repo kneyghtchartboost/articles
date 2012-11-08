@@ -1,6 +1,6 @@
 **Q: What languages are you compatible with?**
 
-A: We are currently compatible with Objective-C, Java, & Unity (through the plug-in located [here.](http://www.prime31.com/unity/#ChartBoost).
+A: We are currently compatible with Objective-C, Java, & Unity (through the plug-in located [here](http://www.prime31.com/unity/#ChartBoost).
 
 **Q: "I can't see any ads in my app. Is something wrong?"**
 
