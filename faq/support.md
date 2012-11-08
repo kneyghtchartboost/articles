@@ -1,15 +1,16 @@
 **Q: What languages are you compatible with?**
 
-A: We are currently compatible with Objective-C, Java, & Unity (through the plug-in located [here.](http://www.prime31.com/unity/#ChartBoost)
+A: We are currently compatible with Objective-C, Java, and Unity (through the plug-in located [here.](http://www.prime31.com/unity/#ChartBoost)
 
 **Q: "I can't see any ads in my app. Is something wrong?"**
 
-A: Please make sure you've followed the ['Getting Started' Guide.](http://help.chartboost.com/getting-started)
+A: Please make sure you've followed the ['Getting Started' Guide.](http://help.chartboost.com/getting-started) After doing so, please make sure 
 
 **Q: What are Callbacks and how can I add them?**
 
 
 **Q: What are priorities and how do they work?**
+
 
 
 
