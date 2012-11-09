@@ -8,7 +8,9 @@ analytics and in-app purchase revenue.
 
 Integrating Chartboost takes a few easy steps:
 
- 1. Drop the Chartboost folder into your Xcode project.
+ 1. Add the ChartBoost.jar file as an external jar to your project (Java Build Path - Libraries).
+
+ 2. Drop the Chartboost folder into your Xcode project.
     
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -20,7 +22,7 @@ Integrating Chartboost takes a few easy steps:
     </activity>
     ```
 
- 2.  Configure Chartboost and use it in your application:
+ 3.  Configure Chartboost and use it in your application:
     
     ```java
     // Configure ChartBoost
@@ -35,7 +37,7 @@ Integrating Chartboost takes a few easy steps:
     _cb.showInterstitial();
     ```
 
-3. Paste this into any activity that accesses the ChartBoost singleton:
+ 4. Paste this into any activity that accesses the ChartBoost singleton:
 
     ```java
     @Override 
