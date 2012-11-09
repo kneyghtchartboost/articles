@@ -78,23 +78,23 @@ Earnings: How much you have earned as a publisher with Chartboost.
 
 1. Create an account at Chartboost.com
 
-2. Add the app you want to use with Chartboost by going to Apps -> Add App
+2. Add the app you want to use with Chartboost by going to Apps ➔ Add App
 
 3. Once you've added the app and clicked save, the App ID and App Signature will be available in the dashboard which the development team will need to integrate the SDK. The SDK can be found at https://chartboost.com/support/sdk
 
 4. Test the integration. You can do this by installing our Test Example Project located [here](https://github.com/ChartBoost/client-examples). It's a ready to go project you can use to ensure that you have integrated correctly. Please remember to replace the existing App ID and App Signature in the project with your own.
 
 
-5. If you're interested in publishing interstitials, add a custom frame to your app under Apps -> Your App Name -> Promote other apps (note: a custom frame is not required, but we do recommend it).
+5. If you're interested in publishing interstitials, add a custom frame to your app under Apps ➔ Your App Name ➔ Promote other apps (note: a custom frame is not required, but we do recommend it).
 
-6. If you're interested in advertising your app, add ad units under Apps -> Your App Name -> Promote this app.  Also, add funds to your account using PayPal or wire transfer under 'Add Funds' in the left sidebar.
+6. If you're interested in advertising your app, add ad units under Apps ➔ Your App Name ➔ Promote this app.  Also, add funds to your account using PayPal or wire transfer under 'Add Funds' in the left sidebar.
 
-7. Once your update to the app has gone live in the App Store/Marketplace, it's time to start a campaign!  Just go to Campaigns -> Add a Campaign and choose the type of campaign you want to start. Types of campaigns you can run are:
+7. Once your update to the app has gone live in the App Store/Marketplace, it's time to start a campaign!  Just go to Campaigns ➔ Add a Campaign and choose the type of campaign you want to start. Types of campaigns you can run are:
   + Cross-Promotion: promoting among your own apps for free
   + Advertising in the Network: advertise your app across our network of games on a CPI or CPC basis
   + Publish in the Network: show ads in your app for those advertising and earn revenue
 
-8. Now that your campaigns are running, get reports on their performance under Campaign -> Analytics.  You can also see impressions, clicks and installs broken down by app under Apps -> Analytics.
+8. Now that your campaigns are running, get reports on their performance under Campaign ➔ Analytics.  You can also see impressions, clicks and installs broken down by app under Apps ➔ Analytics.
 
 
 <h3 id="campaigns">What do the different campaigns do?</h3>
