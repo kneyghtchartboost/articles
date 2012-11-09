@@ -125,6 +125,8 @@ Cross-promotion of your own games and any deals you make directly with other dev
 
 A: We are currently compatible with Objective-C, Java, and Unity (through the plug-in located [here](http://www.prime31.com/unity/#ChartBoost)).
 
+<a name="cross promo"></a>
+
 **How do I start a cross-promotional campaign?**
 
 To start cross-promoting internally- say, to advertise to users of your Super-Popular App that they should try your Awesome New App- follow these steps to get started.
@@ -134,7 +136,33 @@ To start cross-promoting internally- say, to advertise to users of your Super-Po
 3. [Integrate the Chartboost SDK](http://www.chartboost.com/support/sdk) into Super-Popular App. If you want to track installs or publish in Awesome New App in the future, you should also integrate the SDK into it as well. [Test the integration](https://chartboost.tenderapp.com/kb/ios-integration/how-do-i-know-if-ive-integrated-properly) and submit your update to the app store.
 4. Create a cross-promotional campaign under the Campaign tab at the top of the dashboard, with whatever logic/frequency settings you want. Save the campaign and it will start running (once your update is live in the app store, that is).
 
-<a name="noads"></a>
+<a name="don't have games"></a>
+
+**I don't have any games. Can I still use Chartboost?**
+
+Yes! If you are a developer who makes awesome apps but they are not games, you can still use Chartboost. 
+
+You can use Chartboost for internal cross promotion for your portfolio of apps, or setting up Direct Deals with partners you already know. You can also publish ads for the network to monetize your app.
+
+However, as a non-game, you cannot advertise in our network or view the Direct Deals Marketplace.
+
+<a name="SDK lights"></a>
+
+**What are those 2 icons next to the SDK Integration icon?**
+
+After you've integrated our SDK and set up the Chartboost dashboard, you'll notice there are two icons next to the green SDK light. Listed below is the representation of each light and what it means:
+
+From left to right:
+
+1. SDK Light - If lit, our SDK has successfully integrated with your App.
+2. Frame Light - If lit, it means you have successfully uploaded a custom frame.
+3. Creative Light - If lit, it means you have successfully uploaded a custom creative.
+
+Please utilize the following image for visual aid:
+
+![3_Lights.jpg](/help/assets/1a10f78a5868cd3dc51b6c9a489902fe0290e2c1/3_Lights_normal.jpg)
+
+<a name="no ads"></a>
 
 **I can't see any ads in my app. Is something wrong?**
 
