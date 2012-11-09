@@ -1,5 +1,7 @@
 # Chartboost - Common Questions
 
+---
+
 <a name="keys"></a>
 
 ## App ID & Signature
