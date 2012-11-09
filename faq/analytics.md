@@ -52,7 +52,7 @@ To run this analysis, you'll need a copy of Microsoft Excel.
 
 Now go forth and filter wisely!
 
-<h3 id="improve performance">Publishers - How can I improve my performance?</h3>
+<h3 id="performance">Publishers - How can I improve my performance?</h3>
 
 As a publisher, it's wise to keep an eye on your analytics to make sure you are filtering out apps that don't perform well in your app. You can find out about filtering apps [here](https://chartboost.tenderapp.com/kb/exported-data/publishers-how-to-decide-what-apps-to-filter).
 
@@ -63,5 +63,3 @@ Our network averages a click through rate of 12%. If you are finding that you ar
 2. Are you using a custom frame? Try adding a frame that makes the ad unit feel like a recommendation rather than an ad. There are some hints on Chartboost's (assets page)[http://www.chartboost.com/support/assets]
 
 3. Are you cacheing ads? If so, both your eCPM and CTR will be depressed. Currently, we count an impression on the GET call, not the SHOW call. If you are both caching and using multiple locations, you are probably calling GET one more time than you are actually calling SHOW - so your reported impressions is always higher than your actual.
-
-
