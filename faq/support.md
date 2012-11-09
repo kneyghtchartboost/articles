@@ -91,19 +91,48 @@ Earnings: How much you have earned as a publisher with Chartboost.
 
 6. If you're interested in advertising your app, add ad units under Apps -> Your App Name -> Promote this app.  Also, add funds to your account using PayPal or wire transfer under 'Add Funds' in the left sidebar.
 
-7. Once your update to the app has gone live in the App Store/Marketplace, it's time to start a campaign!  Just go to Campaigns > Add a Campaign and choose the type of campaign you want to start. Types of campaigns you can run are:
+7. Once your update to the app has gone live in the App Store/Marketplace, it's time to start a campaign!  Just go to Campaigns -> Add a Campaign and choose the type of campaign you want to start. Types of campaigns you can run are:
   + Cross-Promotion: promoting among your own apps for free
   + Advertising in the Network: advertise your app across our network of games on a CPI or CPC basis
   + Publish in the Network: show ads in your app for those advertising and earn revenue
 
-8. Now that your campaigns are running, get reports on their performance under Campaign > Analytics.  You can also see impressions, clicks and installs broken down by app under Apps > Analytics.
+8. Now that your campaigns are running, get reports on their performance under Campaign -> Analytics.  You can also see impressions, clicks and installs broken down by app under Apps -> Analytics.
 
+<a name="campaigns"></a>
+
+**What do the different campaigns do?**
+
+**Publish in the Network** - Promote other developers' apps. You should upload a custom frame to make the ad feel like a recommendation from you.
+
+**Advertise in the Network** - Advertise in other developers' apps. For this, you will want to upload a custom ad unit.
+
+**Cross Promotion** - This is a way to promote your own apps within other apps you have created. Your users are your best audience for your new apps.
+
+**Direct Deals** - Partner directly with other developers to make deals as either an advertiser or a publisher. When you have volume, you have the power to make deals.
+
+**More Apps Page** - These pages are usually linked from the homescreen of an app and can display any of the above campaigns, or a specific app.
+
+<a name="cost"></a>
+
+
+**What does it cost to use Chartboost?**
+
+Cross-promotion of your own games and any deals you make directly with other developers are free to do on the Chartboost platform.  Advertising in our network of games works on a bidding basis with either CPI or CPC type campaigns.  When you publish the advertising for our network, we share 70% of the revenue with developers.
 
 <a name="compatibility"></a>
 
 **What coding languages are you compatible with?**
 
 A: We are currently compatible with Objective-C, Java, and Unity (through the plug-in located [here](http://www.prime31.com/unity/#ChartBoost)).
+
+**How do I start a cross-promotional campaign?**
+
+To start cross-promoting internally- say, to advertise to users of your Super-Popular App that they should try your Awesome New App- follow these steps to get started.
+
+1. Add your Super-Popular App under the "App" tab at the top of your dashboard. If you want, you can upload a custom frame under "Promote Other Apps"- design them according to our [publishing creative guidelines](http://www.chartboost.com/support/assets#publishers).
+2. Add Awesome New App as an app, and add creative for it under "Promote this App" according to our [advertising creative guidelines](http://www.chartboost.com/support/assets#advertisers).
+3. [Integrate the Chartboost SDK](http://www.chartboost.com/support/sdk) into Super-Popular App. If you want to track installs or publish in Awesome New App in the future, you should also integrate the SDK into it as well. [Test the integration](https://chartboost.tenderapp.com/kb/ios-integration/how-do-i-know-if-ive-integrated-properly) and submit your update to the app store.
+4. Create a cross-promotional campaign under the Campaign tab at the top of the dashboard, with whatever logic/frequency settings you want. Save the campaign and it will start running (once your update is live in the app store, that is).
 
 <a name="noads"></a>
 
