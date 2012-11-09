@@ -29,9 +29,7 @@ If you want to advertise a particular app, you need to upload at least one ad cr
 
 ---
 
-<a name="lists"></a>
-
-## Device Lists
+<h2 id="lists">Device Lists</h2>
 
 A device list is simple list of UUID's that lets you organize your users into groups. Within a campaign, you can then use these tags for two different purposes:
 
