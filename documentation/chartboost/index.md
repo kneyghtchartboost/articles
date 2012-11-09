@@ -1,10 +1,4 @@
-# Chartboost - Common Questions
-
----
-
-<a name="keys"></a>
-
-## App ID & Signature
+<h2 id="keys">App ID & Signature</h2>
 
 Having trouble finding the App ID & App Signature? Simply click on the app to edit it. On the right hand side of the screen, beneath the app icon, you have can find your unique ID and Signature.
 
@@ -12,13 +6,11 @@ Having trouble finding the App ID & App Signature? Simply click on the app to ed
 
 ---
 
-## Ad Creatives
+<h2 id="creatives">Ad Creatives</h2>
 
 If you want to advertise a particular app, you need to upload at least one ad creative. You can do this by editing the app and then clicking on 'Promote this app'. Here you can upload an unlimited number of ad creatives, like so:
 
 ![](https://chartboost.com/img/admin/help/creatives.jpg)
-
-<a name="creatives"></a>
 
 ### Call to Action Guidelines for Creatives
 
