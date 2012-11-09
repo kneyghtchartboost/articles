@@ -136,7 +136,7 @@ To start cross-promoting internally- say, to advertise to users of your Super-Po
 3. [Integrate the Chartboost SDK](http://www.chartboost.com/support/sdk) into Super-Popular App. If you want to track installs or publish in Awesome New App in the future, you should also integrate the SDK into it as well. [Test the integration](https://chartboost.tenderapp.com/kb/ios-integration/how-do-i-know-if-ive-integrated-properly) and submit your update to the app store.
 4. Create a cross-promotional campaign under the Campaign tab at the top of the dashboard, with whatever logic/frequency settings you want. Save the campaign and it will start running (once your update is live in the app store, that is).
 
-<a name="don't have games"></a>
+<a name="nogames"></a>
 
 **I don't have any games. Can I still use Chartboost?**
 
@@ -146,7 +146,7 @@ You can use Chartboost for internal cross promotion for your portfolio of apps, 
 
 However, as a non-game, you cannot advertise in our network or view the Direct Deals Marketplace.
 
-<a name="SDK lights"></a>
+<a name="sdklights"></a>
 
 **What are those 2 icons next to the SDK Integration icon?**
 
@@ -162,7 +162,7 @@ Please utilize the following image for visual aid:
 
 <img src="http://chartboost.s3.amazonaws.com/help_assets/SDK%20Light.jpg" />
 
-<a name="no ads"></a>
+<a name="noads"></a>
 
 **I can't see any ads in my app. Is something wrong?**
 
