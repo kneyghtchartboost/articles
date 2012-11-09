@@ -1,6 +1,4 @@
-<a name="glossary"></a>
-
-**Getting Started: Chartboost Glossary** 
+<h3 id="glossary">Getting Started: Chartboost Glossary</h3>
 
 If you're new to mobile advertising and distribution, this is a good place to start learning the basic terminology!
 
@@ -76,31 +74,30 @@ Balance: How much you have left to spend as an advertiser. If this number is neg
 
 Earnings: How much you have earned as a publisher with Chartboost.
 
-<a name="overview"></a>
+<h3 id="overview">Chartboost Overview</h3>
 
 1. Create an account at Chartboost.com
 
-2. Add the app you want to use with Chartboost by going to Apps -> Add App
+2. Add the app you want to use with Chartboost by going to Apps ➔ Add App
 
 3. Once you've added the app and clicked save, the App ID and App Signature will be available in the dashboard which the development team will need to integrate the SDK. The SDK can be found at https://chartboost.com/support/sdk
 
 4. Test the integration. You can do this by installing our Test Example Project located [here](https://github.com/ChartBoost/client-examples). It's a ready to go project you can use to ensure that you have integrated correctly. Please remember to replace the existing App ID and App Signature in the project with your own.
 
 
-5. If you're interested in publishing interstitials, add a custom frame to your app under Apps -> Your App Name -> Promote other apps (note: a custom frame is not required, but we do recommend it).
+5. If you're interested in publishing interstitials, add a custom frame to your app under Apps ➔ Your App Name ➔ Promote other apps (note: a custom frame is not required, but we do recommend it).
 
-6. If you're interested in advertising your app, add ad units under Apps -> Your App Name -> Promote this app.  Also, add funds to your account using PayPal or wire transfer under 'Add Funds' in the left sidebar.
+6. If you're interested in advertising your app, add ad units under Apps ➔ Your App Name ➔ Promote this app.  Also, add funds to your account using PayPal or wire transfer under 'Add Funds' in the left sidebar.
 
-7. Once your update to the app has gone live in the App Store/Marketplace, it's time to start a campaign!  Just go to Campaigns -> Add a Campaign and choose the type of campaign you want to start. Types of campaigns you can run are:
+7. Once your update to the app has gone live in the App Store/Marketplace, it's time to start a campaign!  Just go to Campaigns ➔ Add a Campaign and choose the type of campaign you want to start. Types of campaigns you can run are:
   + Cross-Promotion: promoting among your own apps for free
   + Advertising in the Network: advertise your app across our network of games on a CPI or CPC basis
   + Publish in the Network: show ads in your app for those advertising and earn revenue
 
-8. Now that your campaigns are running, get reports on their performance under Campaign -> Analytics.  You can also see impressions, clicks and installs broken down by app under Apps -> Analytics.
+8. Now that your campaigns are running, get reports on their performance under Campaign ➔ Analytics.  You can also see impressions, clicks and installs broken down by app under Apps ➔ Analytics.
 
-<a name="campaigns"></a>
 
-**What do the different campaigns do?**
+<h3 id="campaigns">What do the different campaigns do?</h3>
 
 **Publish in the Network** - Promote other developers' apps. You should upload a custom frame to make the ad feel like a recommendation from you.
 
@@ -112,22 +109,16 @@ Earnings: How much you have earned as a publisher with Chartboost.
 
 **More Apps Page** - These pages are usually linked from the homescreen of an app and can display any of the above campaigns, or a specific app.
 
-<a name="cost"></a>
-
-
-**What does it cost to use Chartboost?**
+<h3 id="cost">What does it cost to use Chartboost?</h3>
 
 Cross-promotion of your own games and any deals you make directly with other developers are free to do on the Chartboost platform.  Advertising in our network of games works on a bidding basis with either CPI or CPC type campaigns.  When you publish the advertising for our network, we share 70% of the revenue with developers.
 
-<a name="compatibility"></a>
-
-**What coding languages are you compatible with?**
+<h3 id="compatibility">What coding languages are you compatible with?</h3>
 
 A: We are currently compatible with Objective-C, Java, and Unity (through the plug-in located [here](http://www.prime31.com/unity/#ChartBoost)).
 
-<a name="crosspromo"></a>
 
-**How do I start a cross-promotional campaign?**
+<h3 id="crosspromo">How do I start a cross-promotional campaign?</h3>
 
 To start cross-promoting internally- say, to advertise to users of your Super-Popular App that they should try your Awesome New App- follow these steps to get started.
 
@@ -136,9 +127,7 @@ To start cross-promoting internally- say, to advertise to users of your Super-Po
 3. [Integrate the Chartboost SDK](http://www.chartboost.com/support/sdk) into Super-Popular App. If you want to track installs or publish in Awesome New App in the future, you should also integrate the SDK into it as well. [Test the integration](https://chartboost.tenderapp.com/kb/ios-integration/how-do-i-know-if-ive-integrated-properly) and submit your update to the app store.
 4. Create a cross-promotional campaign under the Campaign tab at the top of the dashboard, with whatever logic/frequency settings you want. Save the campaign and it will start running (once your update is live in the app store, that is).
 
-<a name="nogames"></a>
-
-**I don't have any games. Can I still use Chartboost?**
+<h3 id="nogames">I don't have any games. Can I still use Chartboost?</h3>
 
 Yes! If you are a developer who makes awesome apps but they are not games, you can still use Chartboost. 
 
@@ -146,9 +135,7 @@ You can use Chartboost for internal cross promotion for your portfolio of apps, 
 
 However, as a non-game, you cannot advertise in our network or view the Direct Deals Marketplace.
 
-<a name="sdklights"></a>
-
-**What are those 2 icons next to the SDK Integration icon?**
+<h3 id="sdklights">What are those 2 icons next to the SDK Integration icon?</h3>
 
 After you've integrated our SDK and set up the Chartboost dashboard, you'll notice there are two icons next to the green SDK light. Listed below is the representation of each light and what it means:
 
@@ -162,15 +149,11 @@ Please utilize the following image for visual aid:
 
 <img src="http://chartboost.s3.amazonaws.com/help_assets/SDK%20Light.jpg" />
 
-<a name="noads"></a>
-
-**I can't see any ads in my app. Is something wrong?**
+<h3 id="noads">I can't see any ads in my app. Is something wrong?</h3>
 
 Please make sure you've followed the ['Getting Started' Guide.](http://help.chartboost.com/getting-started) After doing so, you may want to make your device a Test Device (**ADD REDIRECT URL HERE**). Test devices ignore all campaign logic - For example, if you set a limit of one ad per hour, or set specific countries to show ads in, we ignore all that. Instead, we simply serve your device as many ads as possible. This is meant for testing purposes.
 
-<a name="callbacks"></a>
-
-**What are callbacks and how can I add them?**
+<h3 id="callbacks">**What are callbacks and how can I add them?</h3>
 
 Callbacks are used as a way to be notified when a user clicks an ad and/or installs an app. It's a great way to get real-time data in your server for your own tracking and analytics. You can add a callback URL by navigating to your campaign, choosing 'Advanced Settings,' and then 'Show Callbacks.' Please see the images below for visual aid.
 
@@ -178,10 +161,7 @@ Callbacks are used as a way to be notified when a user clicks an ad and/or insta
 
 <img src="http://chartboost.s3.amazonaws.com/help_assets/Callbacks%20Step%202.jpg" />
 
-
-<a name="priorities"></a>
-
-**What are priorities and how do they work?**
+<h3 id="priorities">**What are priorities and how do they work?**</h3>
 
 Priorities work as such - We work our way from the Highest campaign down to Low. Whichever campaign is set to "Highest", we serve as many ads as possible from that campaign until we cannot serve any more. From there, we drop down to the next priority (High) and serve as many ads from there as possible. So forth and so on. 
 
