@@ -1,10 +1,16 @@
+<a href="#compatibility" name="compatibility">Compatible coding languages</a>
+
 **What coding languages are you compatible with?**
 
 A: We are currently compatible with Objective-C, Java, and Unity (through the plug-in located [here](http://www.prime31.com/unity/#ChartBoost)).
 
+<a href="#noads" name="noads">"I can't see any ads in my app."</a>
+
 **I can't see any ads in my app. Is something wrong?**
 
 Please make sure you've followed the ['Getting Started' Guide.](http://help.chartboost.com/getting-started) After doing so, you may want to make your device a Test Device (ADD ANCHOR HERE). Test devices ignore all campaign logic - For example, if you set a limit of one ad per hour, or set specific countries to show ads in, we ignore all that. Instead, we simply serve your device as many ads as possible. This is meant for testing purposes.
+
+<a href="#callbacks" name="callbacks">Callbacks</a>
 
 **What are callbacks and how can I add them?**
 
@@ -14,6 +20,8 @@ Callbacks are used as a way to be notified when a user clicks an ad and/or insta
 
 <img src="http://chartboost.s3.amazonaws.com/help_assets/Callbacks%20Step%202.jpg" />
 
+
+<a href="#priorities" name="priorities">Priorities</a>
 
 **What are priorities and how do they work?**
 
