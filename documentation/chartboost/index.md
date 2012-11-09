@@ -1,8 +1,8 @@
 # Chartboost - Common Questions
 
-## App ID & Signature
-
 <a name="keys"></a>
+
+## App ID & Signature
 
 Having trouble finding the App ID & App Signature? Simply click on the app to edit it. On the right hand side of the screen, beneath the app icon, you have can find your unique ID and Signature.
 
@@ -16,9 +16,9 @@ If you want to advertise a particular app, you need to upload at least one ad cr
 
 ![](https://chartboost.com/img/admin/help/creatives.jpg)
 
-### Call to Action Guidelines for Creatives
-
 <a name="creatives"></a>
+
+### Call to Action Guidelines for Creatives
 
 - Use one of the following: "Download on iTunes," "Available on iTunes," "Download on the App Store," "Available on the App Store," or "Download free on iTunes."
 - You may create a custom call to action button or use Apple's official "Available on the App Store" badge. If you use the official badge, you must follow the App Marketing and Identity guidelines.
@@ -27,9 +27,9 @@ If you want to advertise a particular app, you need to upload at least one ad cr
 
 ---
 
-## Device Lists
-
 <a name="lists"></a>
+
+## Device Lists
 
 A device list is simple list of UUID's that lets you organize your users into groups. Within a campaign, you can then use these tags for two different purposes:
 
