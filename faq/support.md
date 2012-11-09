@@ -160,7 +160,7 @@ From left to right:
 
 Please utilize the following image for visual aid:
 
-![3_Lights.jpg](/help/assets/1a10f78a5868cd3dc51b6c9a489902fe0290e2c1/3_Lights_normal.jpg)
+<img src="http://chartboost.s3.amazonaws.com/help_assets/SDK%20Light.jpg" />
 
 <a name="no ads"></a>
 
