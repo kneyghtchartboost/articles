@@ -125,7 +125,7 @@ Cross-promotion of your own games and any deals you make directly with other dev
 
 A: We are currently compatible with Objective-C, Java, and Unity (through the plug-in located [here](http://www.prime31.com/unity/#ChartBoost)).
 
-<a name="cross promo"></a>
+<a name="crosspromo"></a>
 
 **How do I start a cross-promotional campaign?**
 
