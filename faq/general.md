@@ -161,8 +161,21 @@ Callbacks are used as a way to be notified when a user clicks an ad and/or insta
 
 <img src="http://chartboost.s3.amazonaws.com/help_assets/Callbacks%20Step%202.jpg" />
 
-<h3 id="priorities">**What are priorities and how do they work?**</h3>
+<h3 id="priorities">What are priorities and how do they work?</h3>
 
 Priorities work as such - We work our way from the Highest campaign down to Low. Whichever campaign is set to "Highest", we serve as many ads as possible from that campaign until we cannot serve any more. From there, we drop down to the next priority (High) and serve as many ads from there as possible. So forth and so on. 
 
 For example, if you have a Publish in Network campaign set to "Highest" and a Cross Promo campaign set to "High", we will show as many ads as possible from our network and then, when there are no more ads to show, we will drop down to the next priority (in this case, "High") and then show the Cross Promo ad.
+
+
+<h3 id="test">How do test devices work?</h3>
+
+You may add test devices by UDID (or Android ID). When testing campaigns on these devices, all campaign logic will be ignored. For example, if your campaign is only set to show an interstitial once per day, you will see the interstitial every time on your test device. You can also test campaigns in the simulator and it will automatically ignore campaign logic as if you were on a test device.
+
+You can add test devices to a campaign by click "Show Test Devices" to the right of the Campaign Logic header, then "Add Test Device."
+
+<img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20Device%201.jpg"/>
+
+<img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20device%202.jpg/>
+
+<img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20device%203.jpg"/>
