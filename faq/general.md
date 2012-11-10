@@ -176,6 +176,6 @@ You can add test devices to a campaign by click "Show Test Devices" to the right
 
 <img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20Device%201.jpg"/>
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20device%202.jpg"/>
+<img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20Device%20Second%20Img.jpg"/>
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20device%203.jpg"/>
+<img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20Device%20Third%20Image.jpg"/>
