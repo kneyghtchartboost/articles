@@ -174,7 +174,7 @@ You may add test devices by UDID (or Android ID). When testing campaigns on thes
 
 You can add test devices to a campaign by click "Show Test Devices" to the right of the Campaign Logic header, then "Add Test Device."
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20Device%201.jpg"/>
+<img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20Device%201.jpg" style="display:none;" data-comment"THIS IMAGE LINK IS BROKEN"/>
 
 <img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20Device%20Second%20Img.jpg"/>
 
