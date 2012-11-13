@@ -34,13 +34,13 @@ To run this analysis, you'll need a copy of Microsoft Excel.
 
 2. Change "Group by Campaign" to "Group by App." This will give you all data broken out by app promoted.
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/Publishers%20-%20How%20To%20Decide.jpg" />
+<img src="//chartboost.s3.amazonaws.com/help_assets/Publishers%20-%20How%20To%20Decide.jpg" />
 
 3. Click "Refresh" and wait for analytics to load, then click "Export Table to CSV." A .csv file will be downloaded to your computer. Open this file in Excel.
 
 4. Open the data in a pivot table (select all of the data in the sheet, then open Data > Pivot Table). Add "To App Name" as the rows, and sum of impressions, sum of clicks, sum of impressions, and sum of earned to the values.
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/Pivot.jpg" />
+<img src="//chartboost.s3.amazonaws.com/help_assets/Pivot.jpg" />
 
 5. Calculate the eCPM in column F. The formula is earned/impressions * 1000, so in this case you can use =E5/B5 * 1000 in cell F5 and then extend that into the rest of the column. You can format this whole column as currency to help with readability. 
 
