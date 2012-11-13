@@ -32,4 +32,4 @@ What you're testing for:
 
 Integrating the SDK requires an APP_ID and APP_SIGNATURE.  To get the ID and SIGNATURE, add the app to your Chartboost.com account by going to Apps > Add App.  Fill in the required fields and click 'Save.'  The Apps Overview page will appear.  On this page, click the 'App IDs' link under the name of the app you added, and a pop-up will appear with the App ID and App Signature needed for integration.
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/App%20ID.jpg"/>
+<img src="//chartboost.s3.amazonaws.com/help_assets/App%20ID.jpg"/>
