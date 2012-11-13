@@ -147,7 +147,7 @@ From left to right:
 
 Please utilize the following image for visual aid:
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/SDK%20Light.jpg" />
+<img src="//chartboost.s3.amazonaws.com/help_assets/SDK%20Light.jpg" />
 
 <h3 id="noads">I can't see any ads in my app. Is something wrong?</h3>
 
@@ -157,9 +157,9 @@ Please make sure you've followed the ['Getting Started' Guide.](http://help.char
 
 Callbacks are used as a way to be notified when a user clicks an ad and/or installs an app. It's a great way to get real-time data in your server for your own tracking and analytics. You can add a callback URL by navigating to your campaign, choosing 'Advanced Settings,' and then 'Show Callbacks.' Please see the images below for visual aid.
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/Callbacks%20Step%201.jpg" />
+<img src="//chartboost.s3.amazonaws.com/help_assets/Callbacks%20Step%201.jpg" />
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/Callbacks%20Step%202.jpg" />
+<img src="//chartboost.s3.amazonaws.com/help_assets/Callbacks%20Step%202.jpg" />
 
 <h3 id="priorities">What are priorities and how do they work?</h3>
 
@@ -174,8 +174,8 @@ You may add test devices by UDID (or Android ID). When testing campaigns on thes
 
 You can add test devices to a campaign by click "Show Test Devices" to the right of the Campaign Logic header, then "Add Test Device."
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20Device%201.jpg" style="display:none;" data-comment"THIS IMAGE LINK IS BROKEN"/>
+<img src="//chartboost.s3.amazonaws.com/help_assets/Test%20Device%201.jpg" style="display:none;" data-comment"THIS IMAGE LINK IS BROKEN"/>
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20Device%20Second%20Img.jpg"/>
+<img src="//chartboost.s3.amazonaws.com/help_assets/Test%20Device%20Second%20Img.jpg"/>
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/Test%20Device%20Third%20Image.jpg"/>
+<img src="//chartboost.s3.amazonaws.com/help_assets/Test%20Device%20Third%20Image.jpg"/>
