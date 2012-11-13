@@ -1,4 +1,4 @@
-<h3 id="rewardinstall">Does Chartboost support rewarded installs?</h3>
+ <h3 id="rewardinstall">Does Chartboost support rewarded installs?</h3>
 
 No. Chartboost does not support rewarded installs.
 
@@ -15,17 +15,17 @@ You can target by many different parameters:
 
 When setting up your campaign targets and bid, just click the “View Priority List” button.
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/View%20Priority%20List.png"/>
+<img src="//chartboost.s3.amazonaws.com/help_assets/View%20Priority%20List.jpg"/>
 
  A pop-up will appear showing the bid and performance of the current top priority campaign, plus suggest what you should bid to gain top priority.  
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/Popup.png"/>
+<img src="//chartboost.s3.amazonaws.com/help_assets/Popup.jpg"/>
 
 Note that bids are constantly changing and the recommended bid will change as well (please do not take this image as an absolute! Check on it yourself to see any changes).
 
 You can also filter by region and device to see what bid you need to be top priority on specific targets.
 
-<img src="http://chartboost.s3.amazonaws.com/help_assets/Region%20country.png"/>
+<img src="//chartboost.s3.amazonaws.com/help_assets/Region%20country.png"/>
 
 <h3 id="advertising">How do I create an advertising campaign?</h3>
 
