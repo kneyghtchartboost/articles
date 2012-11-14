@@ -38,6 +38,10 @@ Impression: An impression is counted each time an ad is shown to a user.
 
 Click: A click is counted each time a user taps an ad that is shown to them.
 
+Bootup: Any time a user has booted up (or launched) your app
+
+Uniques: The number of unique users (or devices) that launch your app
+
 Install: An install is counted every time a user launches an app for the first time that they downloaded after clicking an ad.
 
 Impressions/Clicks/Installs Delivered: Metrics for a publishing campaign (ie, the campaign shown to users in your app delivered 1200 installs to advertisers in the network).
