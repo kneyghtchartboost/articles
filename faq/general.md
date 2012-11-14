@@ -155,7 +155,7 @@ Please utilize the following image for visual aid:
 
 <h3 id="noads">I can't see any ads in my app. Is something wrong?</h3>
 
-Please make sure you've followed the ['Getting Started' Guide.](http://help.chartboost.com/getting-started) After doing so, you may want to make your device a Test Device (**ADD REDIRECT URL HERE**). Test devices ignore all campaign logic - For example, if you set a limit of one ad per hour, or set specific countries to show ads in, we ignore all that. Instead, we simply serve your device as many ads as possible. This is meant for testing purposes.
+Please make sure you've followed the ['Getting Started' Guide.](http://help.chartboost.com/getting-started) After doing so, you may want to make your device a Test Device [click here] (#test). Test devices ignore all campaign logic - For example, if you set a limit of one ad per hour, or set specific countries to show ads in, we ignore all that. Instead, we simply serve your device as many ads as possible. This is meant for testing purposes.
 
 <h3 id="callbacks">**What are callbacks and how can I add them?</h3>
 
