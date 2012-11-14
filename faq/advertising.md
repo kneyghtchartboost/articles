@@ -15,7 +15,7 @@ You can target by many different parameters:
 
 When setting up your campaign targets and bid, just click the “View Priority List” button.
 
-<img src="//chartboost.s3.amazonaws.com/help_assets/View%20Priority%20List.jpg"/>
+<img src="//chartboost.s3.amazonaws.com/help_assets/View%20Priority%20Listing.jpg>
 
  A pop-up will appear showing the bid and performance of the current top priority campaign, plus suggest what you should bid to gain top priority.  
 
@@ -25,7 +25,7 @@ Note that bids are constantly changing and the recommended bid will change as we
 
 You can also filter by region and device to see what bid you need to be top priority on specific targets.
 
-<img src="//chartboost.s3.amazonaws.com/help_assets/Region%20country.png"/>
+<img src="//chartboost.s3.amazonaws.com/help_assets/Region%20country.jpg"/>
 
 <h3 id="advertising">How do I create an advertising campaign?</h3>
 
