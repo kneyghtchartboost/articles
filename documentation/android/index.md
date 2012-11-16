@@ -1,12 +1,7 @@
 
-The Chartboost SDK is the cornerstone of the Chartboost network. It
-provides the functionality for showing interstitials and  More-Apps pages, as well as tracking
-analytics and in-app purchase revenue.
-
-
 ### Basic integration
 
-Integrating Chartboost takes a few easy steps. Checkout our (Github repo)[https://github.com/ChartBoost/client-examples] for a full example project.
+Integrating Chartboost takes a few easy steps. Checkout our [Github repo](https://github.com/ChartBoost/client-examples) for a full example project.
 
 Use requirements:
 - Minimum API level 8 (Android OS 2.2)
