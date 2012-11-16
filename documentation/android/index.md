@@ -1,7 +1,7 @@
 
 ### Basic integration
 
-Integrating Chartboost takes a few easy steps. Checkout our [Github repo](https://github.com/ChartBoost/client-examples) for a full example project.
+Integrate Chartboost in a few easy steps. Checkout our [Github repo](https://github.com/ChartBoost/client-examples) for a full example project.
 
 Use requirements:
 - Minimum API level 8 (Android OS 2.2)
@@ -36,25 +36,35 @@ Use requirements:
 		this.cb.showInterstitial() 
 	```
 
- 4. Add the following code to your activity's onStart(), onStop(), and onBackPressed() methods :
+ 4. Add the following code to your activity's onStart(), onStop(), and onBackPressed() methods:
 
 	```java
-	   @Override
+	    @Override
 		protected void onStart() {
 			super.onStart();
+			
 			this.cb.onStart(this);
 		}
+		
 		@Override
 		protected void onStop() {
 			super.onStop();
+			
 			this.cb.onStop(this);
 		}
 		
 		@Override
 		public void onBackPressed() {
+
+			// If an interstitial is displayed, close it. Otherwise continue as normal	
 			if (this.cb.onBackPressed())
 				return;
 			else
 				super.onBackPressed();
 		}
     ```
+    
+    
+    
+    
+    
