@@ -11,13 +11,13 @@ Use requirements:
 ---
 
  1. Add the chartboost.jar file as an external jar to your project 
- - Right click project > Properties > Java Build Path > Libraries > Add External JARs...
- - Select "Order and Export" and select checkbox next to chartboost.jar
+ 	- Right click project > Properties > Java Build Path > Libraries > Add External JARs...
+ 	- Select "Order and Export" and select checkbox next to chartboost.jar
 
  2.  Import the Chartboost SDK into any activity that uses Chartboost
     
     ```java
-    import com.chartboost.sdk.*;
+    	import com.chartboost.sdk.*;
     ```
 
  3. Add the following code to your onCreate() method:
