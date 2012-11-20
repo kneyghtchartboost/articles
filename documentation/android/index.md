@@ -5,8 +5,8 @@ Integrate Chartboost in a few easy steps. Checkout our [Github repo](https://git
 
 Use requirements:
 - Minimum API level 8 (Android OS 2.2)
-- Requires permission: android.permission.INTERNET
-- Optional (recommended) permissions: WRITE_EXTERNAL_STORAGE, ACCESS_NETWORK_STATE, ACCESS_WIFI_STATE
+- Requires permission: `android.permission.INTERNET`
+- Optional (recommended) permissions: `WRITE_EXTERNAL_STORAGE`, `ACCESS_NETWORK_STATE`, `ACCESS_WIFI_STATE`
 
 ---
 
@@ -20,7 +20,7 @@ Use requirements:
     	import com.chartboost.sdk.*;
     ```
 
- 3. Add the following code to your onCreate() method:
+ 3. Add the following code to your `onCreate()` method:
     
     ```java
 		// Configure Chartboost
@@ -36,7 +36,7 @@ Use requirements:
 		this.cb.showInterstitial() 
 	```
 
- 4. Add the following code to your activity's onStart(), onStop(), and onBackPressed() methods:
+ 4. Add the following code to your activity's `onStart()`, `onStop()`, and `onBackPressed()` methods:
 
 	```java
 	    @Override
