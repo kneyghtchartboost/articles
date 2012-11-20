@@ -3,7 +3,7 @@
 
 ---
 
-(Integration instructions)[/documentation/android]
+[Integration instructions](/documentation/android)
 
 ---
 
@@ -21,9 +21,9 @@
 - Handles tracking of cached interstitials properly
 - Countless performance & stability upgrades
 - New API methods:
--- cb.onCreate: Initialize Chartboost with cb.onCreate(Context, appID, appSignature, chartboostDelegate or null)
--- cb.startSession(), removed cb.install()
+    - cb.onCreate: Initialize Chartboost with cb.onCreate(Context, appID, appSignature, chartboostDelegate or null)
+    - cb.startSession(), removed cb.install()
 - New delegate methods:
--- didCacheInterstitial: called when an interstitial is successfully cached from the server, interstitial location identifier passed in
--- didCacheMoreApps: called when the more apps page is successfully cached from the server
--- shouldRequestInterstitialsInFirstSession: default is YES, you may override to NO if you don't want interstitials displayed until after the 2nd startSession (for compliance with Human Interface Guidelines)
+    - didCacheInterstitial: called when an interstitial is successfully cached from the server, interstitial location identifier passed in
+    - didCacheMoreApps: called when the more apps page is successfully cached from the server
+    - shouldRequestInterstitialsInFirstSession: default is YES, you may override to NO if you don't want interstitials displayed until after the 2nd startSession (for compliance with Human Interface Guidelines)
