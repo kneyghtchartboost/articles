@@ -157,7 +157,7 @@ Please utilize the following image for visual aid:
 
 Please make sure you've followed the ['Getting Started' Guide.](http://help.chartboost.com/getting-started) After doing so, you may want to make your device a Test Device [click here] (#test). Test devices ignore all campaign logic - For example, if you set a limit of one ad per hour, or set specific countries to show ads in, we ignore all that. Instead, we simply serve your device as many ads as possible. This is meant for testing purposes.
 
-<h3 id="callbacks">**What are callbacks and how can I add them?</h3>
+<h3 id="callbacks">What are callbacks and how can I add them?</h3>
 
 Callbacks are used as a way to be notified when a user clicks an ad and/or installs an app. It's a great way to get real-time data in your server for your own tracking and analytics. You can add a callback URL by navigating to your campaign, choosing 'Advanced Settings,' and then 'Show Callbacks.' Please see the images below for visual aid.
 
