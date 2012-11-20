@@ -3,7 +3,7 @@
 
 ---
 
-[Integration instructions](/documentation/android)
+[View Integration Instructions](/documentation/android)
 
 ---
 
