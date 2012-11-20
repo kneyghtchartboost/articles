@@ -5,7 +5,7 @@ If you'd like to promote your app through advertising or cross-promotion, you'll
 
 ### Publishing Assets
 
-Even if you are just publishing on the network, it's a good idea to create a custom frame &amp; close button to increase click through rates.
+Even if you are just publishing on the network, it's a good idea to create a custom frame &amp; close button for better click through rates.
 - Download our sample asset pack [here](https://s3.amazonaws.com/chartboost/interstitials/ChartboostFrames.zip) for publishing.
 
 ### Marketing Assets

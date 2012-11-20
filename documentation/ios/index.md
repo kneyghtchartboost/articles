@@ -15,22 +15,23 @@ Integrating Chartboost takes two easy steps:
 
     Additionally, ensure you are weak-linking to the `AdSupport` framework.
 
- 2. Instanciate with the Chartboost SDK in your
-    `application:didFinishLaunchingWithOptions:` method, like this:
+ 2. Instantiate Chartboost in your
+    `applicationDidBecomeActive` method, like this:
     
     ```objc
     #import "Chartboost.h"
     
-    - (BOOL)application:(UIApplication *)application
-      didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-        
+    - (void)applicationDidBecomeActive:(UIApplication *)application        
         Chartboost *cb = [Chartboost sharedChartboost];
-        cb.appId = /* your app id goes here */;
-        cb.appSignature = /* your app signature goes here */;
+        cb.appId = "YOUR CHARTBOOST APP ID";
+        cb.appSignature = "YOUR CHARTBOOST APP SIGNATURE";
+        
+        // Begin a user session
         [cb startSession];
+        
+        // Show an interstitial
         [cb showInterstitial];
         
-        return YES;
     }
     ```
 
