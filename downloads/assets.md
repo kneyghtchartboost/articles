@@ -1,5 +1,3 @@
-# Assets 
-
 ### Advertising Assets
 
 If you'd like to promote your app through advertising or cross-promotion, you'll need to upload creative assets.
