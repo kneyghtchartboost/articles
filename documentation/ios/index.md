@@ -23,6 +23,7 @@ Integrating Chartboost takes two easy steps:
     
     - (void)applicationDidBecomeActive:(UIApplication *)application        
         Chartboost *cb = [Chartboost sharedChartboost];
+        
         cb.appId = "YOUR CHARTBOOST APP ID";
         cb.appSignature = "YOUR CHARTBOOST APP SIGNATURE";
         
