@@ -128,10 +128,22 @@
         <div class="section-image">
         </div>
         <div class="section-content">
-            <ul>
-                <li>Watch <a href="https://www.youtube.com/watch?v=gwsi7TEQxKc">this</a> video for instructions on how to integrate</li>
-                <li>Grab our well-commented example code for hints <a href="https://github.com/ChartBoost/client-examples">here</a></li>
-            </ul> 
+            <div class="highlight"><pre><span class="cp">#import "Chartboost.h"</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">applicationDidBecomeActive:</span><span class="p">(</span><span class="n">UIApplication</span> <span class="o">*</span><span class="p">)</span><span class="nv">application</span>        
+    <span class="n">Chartboost</span> <span class="o">*</span><span class="n">cb</span> <span class="o">=</span> <span class="p">[</span><span class="n">Chartboost</span> <span class="n">sharedChartboost</span><span class="p">];</span>
+    <span class="n">cb</span><span class="p">.</span><span class="n">appId</span> <span class="o">=</span> <span class="s">"YOUR_CHARTBOOST_APP_ID"</span><span class="p">;</span>
+    <span class="n">cb</span><span class="p">.</span><span class="n">appSignature</span> <span class="o">=</span> <span class="s">"YOUR_CHARTBOOST_APP_SIGNATURE"</span><span class="p">;</span>
+    <span class="c1">// Begin a user session</span>
+    <span class="p">[</span><span class="n">cb</span> <span class="n">startSession</span><span class="p">];</span>
+    <span class="c1">// Show an interstitial</span>
+    <span class="p">[</span><span class="n">cb</span> <span class="n">showInterstitial</span><span class="p">];</span>
+<span class="p">}</span>
+</pre></div>
+            <!--<ul>-->
+                <!--<li>Watch <a href="https://www.youtube.com/watch?v=gwsi7TEQxKc">this</a> video for instructions on how to integrate</li>-->
+                <!--<li>Grab our well-commented example code for hints <a href="https://github.com/ChartBoost/client-examples">here</a></li>-->
+            <!--</ul> -->
+            
         </div>
         <div style="clear:both;"></div>
     </div>
