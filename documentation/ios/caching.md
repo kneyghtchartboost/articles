@@ -51,12 +51,15 @@ Check to see if an interstitial is cached using:
 - Cached interstitials automatically expire after 24 hours.
 - Interstitial requests are asynchronous. Keep this in mind if you cache many interstitials while loading other data for your app.
 - ProTip: Use the `didDismissInterstitial` delegate method to automatically re-cache interstitials like this:
+
 ```objc
 - (void)didDismissInterstitial:(NSString *)location {
     [[Chartboost sharedChartboost] cacheInterstitial:location];
 }
 ```
+
 - Similarly use `didDismissMoreApps` to automatically re-cache the More-Apps page:
+
 ```objc
 - (void)didDismissMoreApps {
     [[Chartboost sharedChartboost] cacheMoreApps];
