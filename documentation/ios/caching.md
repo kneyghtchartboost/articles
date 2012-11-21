@@ -3,7 +3,7 @@
 Interstitials may be cached to display at a later time:
 
 ```objc
-// Instead of using [cb showInterstitial] as above, cache it first:
+// Instead of using [cb showInterstitial], cache it first:
 [cb cacheInterstitial];
 
 // Then when you want to display the interstitial, use:
@@ -17,7 +17,7 @@ Interstitials may be cached to display at a later time:
 [cb showInterstitial:@"After Level One"];
 ```
 
-Be notified of interstitial cache success with the following optional method:
+Be notified of interstitial cache success with the optional method below. The SDK will pass in the named location of the cached interstitial.
 
 ```objc
 // Called when an interstitial has been received and cached.
@@ -42,4 +42,23 @@ Check to see if an interstitial is cached using:
 
 // Then show the more apps page in the same way
 [cb showMoreApps];
+```
+
+## Notes on Caching
+
+- Each named location has it's own cache. If you simply call `[cb cacheInterstitial]` without specifying a location, the "Default" location is used.
+- Caching is recommended for the best performance, but be consious of data usage for your users.
+- Cached interstitials automatically expire after 24 hours.
+- Interstitial requests are asynchronous. Keep this in mind if you cache many interstitials while loading other data for your app.
+- ProTip: Use the `didDismissInterstitial` delegate method to automatically re-cache interstitials like this:
+```objc
+- (void)didDismissInterstitial:(NSString *)location {
+    [[Chartboost sharedChartboost] cacheInterstitial:location];
+}
+```
+- Similarly use `didDismissMoreApps` to automatically re-cache the More-Apps page:
+```objc
+- (void)didDismissMoreApps {
+    [[Chartboost sharedChartboost] cacheMoreApps];
+}
 ```
