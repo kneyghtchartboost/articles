@@ -11,9 +11,9 @@ Integrating Chartboost takes two easy steps:
  1. Drop the Chartboost folder into your Xcode project.
     
     Ensure you are linking against the following frameworks: `QuartzCore`,
-    `SystemConfiguration`, `StoreKit`, `CoreGraphics`, and `GameKit`.
+    `SystemConfiguration`, `CoreGraphics`.
 
-    Additionally, ensure you are weak-linking to the `AdSupport` framework.
+    Additionally, ensure you are weak-linking to the `AdSupport` and `StoreKit` frameworks.
 
  2. Instantiate Chartboost in your
     `applicationDidBecomeActive` method, like this:
@@ -24,8 +24,8 @@ Integrating Chartboost takes two easy steps:
     - (void)applicationDidBecomeActive:(UIApplication *)application        
         Chartboost *cb = [Chartboost sharedChartboost];
         
-        cb.appId = "YOUR CHARTBOOST APP ID";
-        cb.appSignature = "YOUR CHARTBOOST APP SIGNATURE";
+        cb.appId = "YOUR_CHARTBOOST_APP_ID";
+        cb.appSignature = "YOUR_CHARTBOOST_APP_SIGNATURE";
         
         // Begin a user session
         [cb startSession];
