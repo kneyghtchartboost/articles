@@ -46,7 +46,8 @@ Check to see if an interstitial is cached using:
 
 ## Notes on Caching
 
-- Each named location has it's own cache. If you simply call `[cb cacheInterstitial]` without specifying a location, the "Default" location is used.
+- `[cb showInterstitial]` displays a cached interstitial if one exists. Otherwise it will load one from the server.
+- Each named location has it's own cache. If you call `[cb cacheInterstitial]` without specifying a location, the "Default" location is used.
 - Caching is recommended for the best performance, but be conscious of data usage for your users.
 - Cached interstitials automatically expire after 24 hours.
 - Interstitial requests are asynchronous. Keep this in mind if you cache many interstitials while loading other data for your app.

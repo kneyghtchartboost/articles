@@ -26,7 +26,7 @@ Use requirements:
 	this.cb = Chartboost.sharedChartboost();
 	String appId = "YOUR_APP_ID";
 	String appSignature = "YOUR_APP_SIGNATURE";
-	this.cb.onCreate(this, appId, appSignature, this.chartBoostDelegate);
+	this.cb.onCreate(this, appId, appSignature, null);
 	
 	// Notify the beginning of a user session
 	this.cb.startSession();
@@ -55,7 +55,7 @@ Use requirements:
 	@Override
 	public void onBackPressed() {
 
-		// If an interstitial is displayed, close it. Otherwise continue as normal	
+		// If an interstitial is on screen, close it. Otherwise continue as normal.
 		if (this.cb.onBackPressed())
 			return;
 		else
@@ -63,7 +63,18 @@ Use requirements:
 	}
     ```
     
-    
-    
-    
-    
+---
+   
+### Advanced topics
+
+<a class="article_box" href="/documentation/android/caching">Caching</a>
+
+<a class="article_box" href="/documentation/android/analytics">Analytics</a>
+
+<a class="article_box" href="/documentation/android/delegation">Delegate methods</a>
+
+
+
+
+
+

@@ -4,7 +4,7 @@ Please apply to the Chartboost ARPU beta program before adding in-app purchase t
 
 ```objc
 // Make sure you've already integrated chartboost and 
-// called `startSessions` by this point.
+// called `startSession` by this point.
 
 // Initialize the CBAnalytics object
 CBAnalytics *analytics = [CBAnalytics sharedAnalytics];
