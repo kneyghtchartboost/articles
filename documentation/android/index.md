@@ -67,14 +67,8 @@ Use requirements:
    
 ### Advanced topics
 
-<a class="article_box" href="/documentation/android/caching">Caching</a>
+<a class="article_box" href="/documentation/android/caching">Caching</a>: interstitials &amp; the More-Apps page for fast load times.
 
-<a class="article_box" href="/documentation/android/analytics">Analytics</a>
+<a class="article_box" href="/documentation/android/delegation">Delegate methods</a>: to finely control Chartboost behavior in your app.
 
-<a class="article_box" href="/documentation/android/delegation">Delegate methods</a>
-
-
-
-
-
-
+<a class="article_box" href="/documentation/android/analytics">Analytics</a>: tracking ARPU via transaction reporting.

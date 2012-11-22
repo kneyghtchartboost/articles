@@ -43,9 +43,8 @@ Integrating Chartboost takes two easy steps:
 
 ### Advanced topics
 
-<a class="article_box" href="/documentation/ios/caching">Caching</a>
+<a class="article_box" href="/documentation/ios/caching">Caching</a>: interstitials &amp; the More-Apps page for fast load times.
 
-<a class="article_box" href="/documentation/ios/analytics">Analytics</a>
+<a class="article_box" href="/documentation/ios/delegation">Delegate methods</a>: to finely control Chartboost behavior in your app.
 
-<a class="article_box" href="/documentation/ios/delegation">Delegate methods</a>
-
+<a class="article_box" href="/documentation/ios/analytics">Analytics</a>: tracking ARPU via transaction reporting.
