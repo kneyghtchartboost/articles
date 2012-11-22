@@ -1,4 +1,4 @@
-## Caching interstitials
+## Caching Interstitials
 
 Interstitials may be cached to display at a later time:
 
@@ -37,7 +37,7 @@ cb.hasCachedInterstitial();
 cb.hasCachedInterstitial("After Level One");
 ```
 
-## Caching more apps
+## Caching More-Apps
 
 ```java
 // To quickly display the more apps page, you may cache it similar to interstitials above
@@ -46,6 +46,7 @@ cb.cacheMoreApps();
 // Then show the more apps page in the same way
 cb.showMoreApps();
 ```
+
 
 ## Notes on Caching
 
